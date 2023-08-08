@@ -1,0 +1,92 @@
+/* styles.css */
+
+/* Game Container */
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Help Button */
+  .help-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Modal Styles */
+  .modal-content {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .close-modal-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Header */
+  .header {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Hangman */
+  .hangman {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  /* Word */
+  .word {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Letters */
+  .letters {
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+  }
+  
+  .letter-button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .letter-button.guessed {
+    background-color: #6c757d;
+    cursor: default;
+  }
+.outcome-notification {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}  
+.restart-button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+border-radius: 20px;
+outline: none;
+}
